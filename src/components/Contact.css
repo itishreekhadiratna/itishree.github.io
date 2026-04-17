@@ -1,0 +1,158 @@
+.contact-section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.contact-info {
+  flex: 1;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info h3 {
+  font-size: 2rem;
+  color: var(--text-primary);
+}
+
+.contact-info p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.contact-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-item .icon {
+  font-size: 1.5rem;
+}
+
+.contact-item p {
+  margin: 0;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.social-links {
+  margin-top: auto;
+  display: flex;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  transition: var(--transition);
+  border: 1px solid var(--glass-border);
+}
+
+.social-icon:hover {
+  background: var(--accent-purple);
+  transform: translateY(-5px);
+  color: white;
+}
+
+/* Form Styles */
+.contact-form {
+  flex: 1.2;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-group {
+  position: relative;
+  text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  transition: var(--transition);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: transparent; /* For the floating label effect */
+}
+
+.form-group label {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--accent-cyan);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.form-group input:focus ~ label,
+.form-group input:not(:placeholder-shown) ~ label,
+.form-group textarea:focus ~ label,
+.form-group textarea:not(:placeholder-shown) ~ label {
+  top: -12px;
+  left: 15px;
+  font-size: 0.85rem;
+  color: var(--accent-cyan);
+  background: var(--bg-color);
+  padding: 0 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+@media (max-width: 850px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}

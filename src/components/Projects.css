@@ -1,0 +1,129 @@
+.projects-section {
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.project-card {
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: left;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-color: var(--accent-purple);
+}
+
+.project-img-container {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 15, 25, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.1);
+}
+
+.project-info {
+  padding: 25px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.project-desc {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--accent-cyan);
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(0, 242, 254, 0.2);
+}
+
+.project-links-bottom {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottom-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--transition);
+}
+
+.bottom-link .arrow {
+  color: var(--accent-cyan);
+  transition: transform 0.3s ease;
+}
+
+.bottom-link:hover {
+  color: var(--accent-cyan);
+}
+
+.bottom-link:hover .arrow {
+  transform: translate(3px, -3px);
+}
