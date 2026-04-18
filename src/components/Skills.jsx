@@ -3,14 +3,15 @@ import { motion } from 'framer-motion';
 import './Skills.css';
 
 const skillsData = [
-  { name: 'Core Java', icon: '☕', desc: 'Object-Oriented Programming, multithreading, and robust backend logic.' },
-  { name: 'Spring Boot', icon: '🍃', desc: 'Building scalable RESTful APIs and microservices efficiently.' },
-  { name: 'React JS', icon: '⚛️', desc: 'Creating dynamic, responsive, and component-driven user interfaces.' },
-  { name: '.NET', icon: '🟣', desc: 'Developing high-performance enterprise applications and secure endpoints.' },
-  { name: 'Python', icon: '🐍', desc: 'Data structures, automation scripting, and AI/ML backend integration.' },
-  { name: 'MySQL', icon: '🗄️', desc: 'Relational database design, complex querying, and data management.' },
-  { name: 'Azure Cloud', icon: '☁️', desc: 'Deploying scalable applications, virtual machines, and cloud architecture.' },
-  { name: 'Git & Postman', icon: '🛠️', desc: 'Version control workflows and robust API endpoint testing.' },
+  { name: 'Core Languages', icon: '☕', desc: 'Proficient in Java and JavaScript for building robust applications.' },
+  { name: 'Frontend', icon: '⚛️', desc: 'HTML, CSS, React.js, and Angular for dynamic user interfaces.' },
+  { name: 'Backend', icon: '🍃', desc: 'Spring Boot, Spring MVC, and REST API Development.' },
+  { name: 'Database', icon: '🗄️', desc: 'MySQL for scalable relational database design and management.' },
+  { name: 'Cloud & DevOps', icon: '☁️', desc: 'Microsoft Azure, Docker, and seamless CI/CD pipelines.' },
+  { name: 'Test & Security', icon: '🛡️', desc: 'JUnit, Mockito for testing, and secure JWT Authentication.' },
+  { name: 'Core Concepts', icon: '🧩', desc: 'OOPs, Data Structures, Microservices, and Agile methodologies.' },
+  { name: 'AI & Source Control', icon: '🤖', desc: 'Git, GitHub, GitHub Copilot, and Claude AI integration.' },
+  { name: 'Utilities', icon: '🔧', desc: 'Postman, Jira, and Canva for API testing, tracking, and design.' }
 ];
 
 export default function Skills() {

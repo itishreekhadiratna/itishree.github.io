@@ -3,6 +3,45 @@ import './Experience.css';
 
 const experienceData = [
   {
+    role: 'SrustiTechHack 2.0 – Top 15 Finalist',
+    company: 'Srusti Academy of Management and Technology',
+    duration: 'Jan 2026',
+    bullets: [
+      'Developed Echo Check, an AI-based identity verification and access control web application',
+      'Implemented face recognition, liveness detection, and OTP-based multi-factor authentication',
+      'Built using React.js and Python (FastAPI) with secure database integration',
+      'Designed role-based access control (Admin/User) with a monitoring dashboard'
+    ]
+  },
+  {
+    role: 'BPUT Project Exhibition – AI-Based ITR',
+    company: 'Biju Patnaik University of Technology',
+    duration: 'Dec 2025',
+    bullets: [
+      'Developed an AI-powered ITR filing system to process financial data and generate summaries',
+      'Integrated chatbot support using AI/NLP for user guidance',
+      'Built using React.js, Python, and secure database systems'
+    ]
+  },
+  {
+    role: 'Trithon Hackathon – Top 45 Finalist',
+    company: 'Trident Academy of Technology, Bhubaneswar',
+    duration: 'Mar 2025',
+    bullets: [
+      'Developed a healthcare platform with online consultations and video appointments',
+      'Designed diet plan recommendations based on user health analysis'
+    ]
+  },
+  {
+    role: 'SrustiTechHack 1.0 – 2nd Runner-Up',
+    company: 'Srusti Academy of Management and Technology',
+    duration: 'Jan 2025',
+    bullets: [
+      'Built an innovative solution Swasthya Setu (fast healthcare solution) and secured 2nd position',
+      'Demonstrated strong problem-solving and teamwork in a competitive hackathon environment'
+    ]
+  },
+  {
     role: 'Intern (Full-Time)',
     company: 'Asteris Solution, Bhubaneswar',
     duration: 'Aug 2024 – Jan 2025',

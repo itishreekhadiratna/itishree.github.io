@@ -77,6 +77,7 @@ export default function About() {
                 <li><span className="bullet">🤝</span> Leadership & Team Management</li>
                 <li><span className="bullet">🧩</span> Problem-Solving Skills</li>
                 <li><span className="bullet">🚀</span> Quick Learner</li>
+                <li><span className="bullet">🎨</span> UI/UX Sensibility</li>
               </ul>
             </div>
             
@@ -84,7 +85,7 @@ export default function About() {
               <h3>Vitals</h3>
               <p><strong>Location:</strong> Bhubaneswar, Odisha</p>
               <p><strong>Languages:</strong> English, Hindi, Odia, German (Learning)</p>
-              <p><strong>Hobbies:</strong> UI Design, Cooking, Dance, Casual Rapping</p>
+              <p><strong>Hobbies:</strong> Graphic Design, Teaching, Cooking, Anchoring, Dance, Casual Rapping</p>
             </div>
           </div>
         </div>

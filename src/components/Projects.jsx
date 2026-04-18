@@ -12,7 +12,7 @@ import tourismImg from '../assets/tourism_app.png';
 
 const projectsData = [
   {
-    title: 'Echo Check (Hackathon Finalist)',
+    title: 'Echo Check (Hackathon)',
     description: 'AI-driven identity verification system with face recognition and liveness detection. Integrated OTP multi-factor authentication and role-based access.',
     tags: ['AI', 'Security', 'Authentication', 'Python'],
     image: echoImg,
@@ -27,17 +27,38 @@ const projectsData = [
   },
   {
     title: 'Movie Information App',
-    description: 'A dynamic React-based application fetching data from external APIs. Features a sleek, modern streaming-style UI.',
-    tags: ['React JS', 'API', 'Frontend', 'CSS3'],
+    description: 'React-based application using external APIs with dynamic modern UI.',
+    tags: ['React JS', 'API', 'Frontend'],
     image: movieImg,
     link: 'https://github.com/itishreekhadiratna/movie-app' // <-- UPDATE YOUR LINK HERE
   },
   {
-    title: 'Odisha Tourism & Hotel Booking',
-    description: 'Static and interactive websites built with HTML5 and CSS3 to deeply promote regional tourism and enable elegant hotel bookings.',
+    title: 'Odisha Tourism Website',
+    description: 'Static website using HTML5 and CSS3 to promote regional tourism.',
     tags: ['HTML5', 'CSS3', 'Web Design'],
     image: tourismImg,
     link: 'https://github.com/itishreekhadiratna/odisha-tourism' // <-- UPDATE YOUR LINK HERE
+  },
+  {
+    title: 'Hotel Booking System',
+    description: 'Informative hotel website using HTML enabling detailed reservations.',
+    tags: ['HTML', 'Web Design', 'Hospitality'],
+    image: tourismImg,
+    link: '#' // <-- UPDATE YOUR LINK HERE
+  },
+  {
+    title: 'Exercise/Fitness Tracking App',
+    description: 'CRUD-based workout tracking application designed to help users monitor routines.',
+    tags: ['CRUD', 'Tracking', 'App'],
+    image: echoImg, // Placeholder image
+    link: '#' // <-- UPDATE YOUR LINK HERE
+  },
+  {
+    title: 'Personal Resume Website',
+    description: 'Portfolio website showcasing projects, skills, and resume details seamlessly.',
+    tags: ['React JS', 'Portfolio', 'Frontend'],
+    image: employeeImg, // Placeholder image
+    link: '#' // <-- UPDATE YOUR LINK HERE
   }
 ];
 
